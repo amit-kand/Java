@@ -1,0 +1,82 @@
+/*//1 byte to short
+class P1{
+	public static void main(String args [])
+	{
+		byte a = 10;
+		short b = a;
+		
+		System.out.println(b);
+	}
+	
+} */
+
+/*
+// 2 byte to int
+class P1{
+	public static void main(String args [])
+	{
+		byte a = 125;
+		int b = a;
+		
+		System.out.println(b);
+	}
+	
+}
+*/
+
+/*
+// 3 byte to long
+class P1{
+	public static void main(String args [])
+	{
+		byte a = 110;
+		long b = a;
+		
+		System.out.println(b);
+	}
+	
+}
+*/
+
+/*
+//4 byte to float
+class P1{
+	public static void main(String args [])
+	{
+		byte a = 21;
+		float b = a;
+		
+		System.out.println(b);
+	}
+	
+}
+*/
+
+/*
+//5 byte to double
+class P1{
+	public static void main(String args [])
+	{
+		byte a = 101;
+		double b = a;
+		
+		System.out.println(b);
+	}
+	
+}
+*/
+
+
+// 6 byte to char
+class P1{
+	public static void main(String args [])
+	{
+		byte a = 130;
+		byte b = a;
+		
+		System.out.println(b);
+	}
+	
+}
+
+
