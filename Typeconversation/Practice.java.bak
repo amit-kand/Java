@@ -1,0 +1,21 @@
+class Demo
+{
+	void Demo(){
+		boolean True = false;
+		boolean a = True;
+		System.out.println(a);
+}
+}
+class Boolean 
+{
+	public static void main(String[] args) 
+	{
+		boolean a = false;
+		boolean b = true;
+		boolean c = a=b;
+		Demo d = new Demo();
+		d.Demo()
+		System.out.println(c);
+	}
+}
+

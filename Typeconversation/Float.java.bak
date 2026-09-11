@@ -1,0 +1,82 @@
+/*
+//1 float to double implicitly;
+class Float 
+{
+	public static void main(String[] args) 
+	{
+		float a = 123.090f;
+		double b = a;
+		System.out.println(b);
+	}
+}
+*/
+
+
+/*
+// 2 float to byte explicitly
+class Float 
+{
+	public static void main(String[] args) 
+	{
+		float a = 123.090f;
+		byte b = (byte)a;
+		System.out.println(b);
+		float c = 145.090f;
+		byte d = (byte)c;
+		System.out.println(d);
+	}
+}
+*/
+
+
+/*
+// 3 float to short explicitly;
+class Float 
+{
+	public static void main(String[] args) 
+	{
+		float a = 123.090f;
+		short b = (short)a;
+		System.out.println(b);
+		
+	}
+}
+*/
+/*
+// 4 float to int explicitly;
+class Float 
+{
+	public static void main(String[] args) 
+	{
+		float a = 1234.090f;
+		int b = (int)a;
+		System.out.println(b);
+		
+	}
+}
+*/
+
+
+// 5 float to long explicitly;
+class Float 
+{
+	public static void main(String[] args) 
+	{
+		float a = 1234.090f;
+		long b = (long)a;
+		System.out.println(b);
+		
+	}
+}
+
+// 6 float to char explicitly;
+class Float 
+{
+	public static void main(String[] args) 
+	{
+		float a = 1234.090f;
+		char b = (char)a;
+		System.out.println(b);
+		
+	}
+}
