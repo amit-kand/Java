@@ -1,0 +1,173 @@
+/*Program to write operation on data result is integer datatype
+(byte,short,char,int)+(byte,short,char,int) = int*/
+
+
+/*
+//1 int to byte explicitly converts
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		byte a = 10;
+		byte b = 20;
+		byte c = (byte)(a + b);
+		System.out.println(c);
+	}
+}
+*/
+
+
+
+/*
+// 2 
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		byte a = 10;
+		short b = 21;
+		byte c = (byte)(a + b);
+		System.out.println(c);
+	}
+}
+*/
+
+/*
+//3 
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		byte a = 10;
+		short b = 22;
+		short c = (short)(a + b);
+		System.out.println(c);
+	}
+}
+*/
+
+/*
+//4
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		byte a = 10;
+		byte b = 24;
+		int c = a + b;
+		System.out.println(c);
+	}
+}
+*/
+
+/*
+//5 
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		byte a = 10;
+		char b = 'b';
+		int c = a + b;
+		System.out.println(c);
+	}
+}
+*/
+
+/*
+//6
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		char a = 's';
+		char b = '2';
+		int c = a + b;
+		System.out.println(c);
+	}
+}
+*/
+
+/*
+//7
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		char a = 'A';
+		char b = 'a';
+		short c =(short) (a + b);
+		System.out.println(c);
+	}
+}
+*/
+
+/*
+//8
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		char a = 'A';
+		char b = 'a';
+		char c = (char)(a + b);
+		System.out.println(c);
+	}
+}
+*/
+
+/*
+//9
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		char a = 'A';
+		int b = 24;
+		short c = (short)(a + b);
+		System.out.println(c);
+	}
+}
+*/
+
+
+/*
+//10
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		int a = 10;
+		short b = 24;
+		int c = a + b;
+		System.out.println(c);
+	}
+}
+*/
+
+/*
+//11
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		short  a = 10;
+		short b = 24;
+		int c = a + b;
+		System.out.println(c);
+	}
+}
+*/
+
+
+//12
+class Operations1 
+{
+	public static void main(String[] args) 
+	{
+		short a = 10;
+		byte b = 24;
+			a+=b;
+		System.out.println(a);
+	}
+}
