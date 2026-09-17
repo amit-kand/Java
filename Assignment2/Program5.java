@@ -1,0 +1,31 @@
+//5) Write a Java program to check whether given number is strong number or not?
+import java.util.*;
+class Program5 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.print("Enter any number :");
+		int n = s.nextInt();
+		int original = n;
+		int sum = 0;
+		while(n>0){
+			int digit = n% 10;
+			int fact = 1;
+			for (int i = 1;i<=digit ;i++ )
+			{
+				fact = fact * i;
+				
+			}
+			sum = sum + fact;
+			n = n /10;
+		}
+		if(sum == original){
+			System.out.println("The number is strong number .");
+		}
+		else
+		{
+			System.out.println("The number is not strong number .");
+		}
+	}
+}

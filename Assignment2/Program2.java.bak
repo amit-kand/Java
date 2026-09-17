@@ -1,0 +1,34 @@
+class Program2 
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 1;i<=1000;i++){
+			int num = i;
+			int original = num;
+			int pali = num;
+			int count = 0;
+			while (num>0)
+			{
+				count++;
+				num = num/10;
+			}
+		
+		
+			int result = 0;
+			while (original > 0) {
+			int digit = original%10;
+			
+			double re = Math.pow(digit,count);
+			result += re; 	
+			original = original / 10;
+			
+			}
+			if (result == pali )
+			{
+				System.out.println(result);
+			}
+			
+		}
+		
+	}
+}
