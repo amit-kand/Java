@@ -1,0 +1,38 @@
+//7).Write a Java program to accept a choice(1-5) and display the selected food item and its price.
+import java.util.*;
+class Program7 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("----menu----");
+		System.out.println("1--->Apple");
+		System.out.println("2--->Juice");
+		System.out.println("3--->Dal");
+		System.out.println("4--->Rice");
+		System.out.println("5--->Roti");
+		System.out.println("Enter Choise(1-5)and see the price of food:");
+		int choice = s.nextInt();
+		switch(choice){
+			case 1:
+				System.out.println("Apple 1 kg price is 120. per kg");
+				break;
+			case 2:
+				System.out.println("Juice price is 30rs 1 glass");
+				break;
+			case 3:
+				System.out.println("Dal price is 10rs 1 boule");
+				break;
+			case 4:
+				System.out.println("Rice price is 20rs 1 boule");
+				break;
+			case 5:
+				System.out.println("Roti price is 10rs 1 roti");
+				break;
+			default:
+				System.out.println("Enter vlaid choise(1-5).");
+				break;
+		}
+	}
+}

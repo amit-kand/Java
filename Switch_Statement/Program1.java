@@ -1,0 +1,37 @@
+//1).Write a Java program to create a simple calculator using switch for +, -, *, /.
+import java.util.*;
+class  Program1
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.print("Enter the first number :");
+		double a = s.nextDouble();
+		System.out.print("Enter orerator(+, -, *, /) :");
+		char op = s.next().charAt(0);
+		System.out.print("Enter the second number :");
+		double b = s.nextDouble();
+		double c;
+		switch(op){
+			case '+':
+				c = a +b;
+				System.out.println(c);
+				break;
+			case'-':
+				c = a-b;
+				System.out.println(c);
+				break;
+			case '/':
+				c = a/b;
+				System.out.println(c);
+				break;
+			case '*':
+				c = a*b;
+				System.out.println(c);
+				break;
+			default:
+				System.out.println("Enter valid operator");
+				break;
+		}
+	}
+}
