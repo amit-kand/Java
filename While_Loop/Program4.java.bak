@@ -1,0 +1,23 @@
+//4).Write a Java program to print all odd numbers from 1 to 100.
+class Program4 
+{
+	public static void main(String[] args) 
+	{
+		int num = 1;
+		while (num<=100)
+		{
+			System.out.println(num);
+			num+=2;
+		}
+		int a = 1;
+		while (a<=100)
+		{
+			if (a%2==1)
+			{
+				System.out.println(a);
+				
+			}
+			a++;
+		}
+	}
+}

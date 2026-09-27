@@ -1,0 +1,20 @@
+//6).Write a Java program to calculate the factorial of a given number using a while loop.
+import java.util.*;
+class Program6 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("Enter the any number :");
+		int num = s.nextInt();
+		int fact = 1;
+		while (1<=num)
+		{
+			fact = fact*num;
+			
+			num--;
+		}
+		System.out.println(fact);
+	}
+}

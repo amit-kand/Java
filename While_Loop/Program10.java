@@ -1,0 +1,27 @@
+//10).Write a Java program to check whether a given number is a palindrome or not using a while loop.
+import java.util.*;
+class Program10 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter any digit");
+		int digit = s.nextInt();
+		int a = digit;
+		int reverse = 0;
+		while (0<digit)
+		{
+			int na = digit%10;
+			reverse = reverse*10+na;
+			digit = digit/10;
+		}
+		if (a==reverse)
+		{
+			System.out.println("The number is palindrome");
+			
+		}
+		else{
+			System.out.println("The number is not palindrome");
+		}
+	}
+}

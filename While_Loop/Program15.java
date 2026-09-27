@@ -1,0 +1,27 @@
+//15).Write a Java program using while loops to print all palindrome numbers between 1 and 1000.
+
+class Program15 
+{
+	public static void main(String[] args) 
+	{
+		int a = 1;
+		while (a<=1000)
+		{
+			int b = a;
+			
+			int reverse= 0;
+			while (0<a)
+			{
+				int re = a%10;
+				reverse=reverse*10+re;
+				a= a/10;
+			}
+			if (b==reverse)
+			{
+				System.out.println(b);
+			}
+			a = b+1;
+		}
+		System.out.println("Hello World!");
+	}
+}
