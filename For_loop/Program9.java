@@ -1,0 +1,19 @@
+//9)Write a Java program to reverse a given number using a for loop.
+import java.util.*;
+class Program9 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.print("Enter the number :");
+		int num = s.nextInt();
+		int reverse = 0;
+		for (int i = num;0<i ;i=i/10 )
+		{
+			int re = i%10;
+			reverse = reverse*10+re;
+			
+		}
+		System.out.println(reverse);
+	}
+}
